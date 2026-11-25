@@ -11,7 +11,7 @@ Apresentação web para a disciplina de Empreendedorismo, com **8 slides** confo
 - **Home / End**: primeiro / último slide
 - **Botões inferiores**: navegação por clique
 
-Duração estimada: cerca de **4–5 minutos**, conforme o ritmo do grupo.
+Duração-alvo: **até 3 minutos**. O roteiro nas notas prevê cerca de **2min52s** (172s), com pequena margem para transições.
 
 ## Deploy no Vercel
 
@@ -41,7 +41,7 @@ Conteúdo baseado nos documentos elaborados pelo grupo: **Lean Canvas ResiMatch*
 - O ponto de equilíbrio (R$ 6.557,82/mês) foi calculado a partir de custos fixos R$ 4.820 e margem de contribuição de 73,5%.
 - Missão, visão, valores e trabalho remoto são **propostas do planejamento**, não operações já implementadas.
 - A solução de matching e o Circular Match Score são **funcionalidades propostas**; não há afirmação de que o produto já esteja em operação.
-- A identidade visual web utiliza **símbolo vetorial próprio** inspirado no conceito de economia circular. A imagem de logo fornecida anteriormente contém marcas-d'água e não foi publicada.
+- A identidade visual web utiliza a **imagem original enviada** (em WebP, sem redesenho), exibida com proporção preservada. A imagem contém marcas-d’água presentes no arquivo fornecido.
 
 ## Equipe
 
