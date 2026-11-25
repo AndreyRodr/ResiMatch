@@ -1,6 +1,6 @@
 # ResiMatch — Pitch do Plano de Negócio
 
-Apresentação web para a disciplina de Empreendedorismo, com **8 slides** conforme o modelo da Profa. Dra. Eliana Calixto.
+Apresentação web para a disciplina de Empreendedorismo, com **8 tópicos do modelo e um slide final de agradecimento** conforme o modelo da Profa. Dra. Eliana Calixto.
 
 ## Acessar e apresentar
 
@@ -11,7 +11,7 @@ Apresentação web para a disciplina de Empreendedorismo, com **8 slides** confo
 - **Home / End**: primeiro / último slide
 - **Botões inferiores**: navegação por clique
 
-Duração-alvo: **até 3 minutos**. O roteiro nas notas prevê cerca de **2min52s** (172s), com pequena margem para transições.
+Duração-alvo: **até 3 minutos**. O roteiro nas notas prevê cerca de **2min57s** (177s), com pequena margem para transições.
 
 ## Deploy no Vercel
 
@@ -30,6 +30,7 @@ Duração-alvo: **até 3 minutos**. O roteiro nas notas prevê cerca de **2min52
 6. O Plano Operacional (estrutura, atividades e recursos humanos)
 7. Plano Financeiro
 8. Avaliação estratégica e geral
+9. Obrigado pela atenção
 
 ## Dados e ressalvas
 

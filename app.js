@@ -7,7 +7,8 @@ const notes = [
   {time:"22s",speech:"Nossa missão proposta é transformar resíduos em oportunidades com inovação e transparência. Planejamos quatro receitas: assinatura de trezentos reais, intermediação de mil, contrato personalizado de dois mil e quinhentos e inteligência de mercado de dois mil reais."},
   {time:"21s",speech:"A operação prevista é digital: cadastrar o lote, analisar características, recomendar compradores e apoiar a negociação. O plano inclui quatro notebooks, um smartphone e a atuação inicial de quatro sócios."},
   {time:"34s",speech:"O investimento estimado soma vinte e dois mil cento e doze reais. No cenário mensal da DRE, projetamos onze mil e quinhentos reais de receita, custos totais de sete mil oitocentos e sessenta e sete reais e resultado operacional de três mil seiscentos e trinta e dois reais. São simulações: o relatório anual do PNBOX apresenta inconsistências."},
-  {time:"21s",speech:"Nossas forças planejadas incluem tecnologia e presença digital. Os desafios são conquistar reputação e atender às exigências legais. Nossa estratégia é desenvolver confiança e especialização. ResiMatch: conectar resíduos a novas oportunidades. Obrigado!"}
+  {time:"21s",speech:"Nossas forças planejadas incluem tecnologia e presença digital. Os desafios são conquistar reputação e atender às exigências legais. Nossa estratégia é desenvolver confiança e especialização. ResiMatch: conectar resíduos a novas oportunidades."},
+  {time:"5s",speech:"Muito obrigado pela atenção!"}
 ];
 let current=0;
 const stage=document.getElementById("slides");
