@@ -120,3 +120,250 @@
   #slide-6 .step-glyph{margin:7px 0 5px}
   #slide-6 .operations-footer{margin-top:12px}
 }
+
+/* =========================================================
+   AJUSTES FINOS – SLIDES 3, 4 e 6
+   ========================================================= */
+
+/* -------------------------
+   SLIDE 3 – CANVAS
+   ------------------------- */
+#slide-3 .canvas-grid {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr)
+    minmax(300px, 1.18fr)
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
+#slide-3 .canvas-item {
+  min-width: 0;
+  height: 100%;
+}
+
+#slide-3 .canvas-highlight {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  padding: 26px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#slide-3 .canvas-highlight strong {
+  font-size: clamp(22px, 2.2vw, 34px);
+  line-height: 1.18;
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
+}
+
+/* Tablet */
+@media (max-width: 1100px) {
+  #slide-3 .canvas-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  #slide-3 .canvas-highlight {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  #slide-3 .canvas-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  #slide-3 .canvas-highlight strong {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 390px) {
+  #slide-3 .canvas-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* -------------------------
+   SLIDE 4 – ANÁLISE DE MERCADO
+   ------------------------- */
+
+/* Variáveis só deste slide */
+#slide-4 {
+  --market-gap: 24px;
+  --market-bridge-width: 150px;
+}
+
+/* Linha de cima */
+#slide-4 .market-flow {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    var(--market-bridge-width)
+    minmax(0, 1fr);
+  gap: var(--market-gap);
+  align-items: stretch;
+  width: 100%;
+  max-width: 1320px;
+}
+
+/* Painéis laterais */
+#slide-4 .market-panel {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Balão do meio */
+#slide-4 .market-bridge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  text-align: center;
+}
+
+#slide-4 .bridge-circle {
+  margin: 0 auto 10px;
+}
+
+/* Linha de baixo:
+   fica alinhada exatamente abaixo dos painéis laterais */
+#slide-4 .market-foot {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: calc(var(--market-bridge-width) + (var(--market-gap) * 2));
+  row-gap: 0;
+  width: 100%;
+  max-width: 1320px;
+  margin-top: 22px;
+}
+
+#slide-4 .market-foot > div {
+  min-width: 0;
+  margin: 0;
+}
+
+/* Tablet */
+@media (max-width: 1100px) {
+  #slide-4 {
+    --market-gap: 18px;
+    --market-bridge-width: 110px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+  #slide-4 .market-flow {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  #slide-4 .market-bridge {
+    flex-direction: row;
+    gap: 12px;
+    padding: 8px 0;
+  }
+
+  #slide-4 .bridge-circle {
+    margin: 0;
+  }
+
+  #slide-4 .market-foot {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    gap: 12px;
+  }
+}
+
+
+/* -------------------------
+   SLIDE 6 – PLANO OPERACIONAL
+   ------------------------- */
+
+/* Linha de cima continua com 4 cards */
+#slide-6 .process-flow {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr) 28px
+    minmax(0, 1fr) 28px
+    minmax(0, 1fr) 28px
+    minmax(0, 1fr);
+  gap: 10px;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1350px;
+}
+
+#slide-6 .process-step {
+  min-width: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#slide-6 .flow-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Linha de baixo:
+   menor que a de cima e centralizada */
+#slide-6 .operations-footer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  width: min(74%, 980px);
+  margin: 24px auto 0;
+}
+
+#slide-6 .operations-footer > div {
+  min-width: 0;
+}
+
+/* Tablet */
+@media (max-width: 1100px) {
+  #slide-6 .process-flow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  #slide-6 .flow-arrow {
+    display: none;
+  }
+
+  #slide-6 .operations-footer {
+    width: min(88%, 900px);
+  }
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+  #slide-6 .operations-footer {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  #slide-6 .process-flow {
+    grid-template-columns: 1fr;
+  }
+
+  #slide-6 .operations-footer {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
