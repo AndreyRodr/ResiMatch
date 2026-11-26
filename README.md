@@ -1,6 +1,6 @@
 # ResiMatch — Pitch do Plano de Negócio
 
-Apresentação web para a disciplina de Empreendedorismo, com **8 tópicos do modelo e um slide final de agradecimento** conforme o modelo da Profa. Dra. Eliana Calixto.
+Apresentação web para a disciplina de Empreendedorismo, com **8 tópicos do modelo, um slide adicional de Missão/Visão/Valores e um slide final de agradecimento** conforme o modelo da Profa. Dra. Eliana Calixto.
 
 ## Acessar e apresentar
 
@@ -11,7 +11,7 @@ Apresentação web para a disciplina de Empreendedorismo, com **8 tópicos do mo
 - **Home / End**: primeiro / último slide
 - **Botões inferiores**: navegação por clique
 
-Duração-alvo: **até 3 minutos**. O roteiro nas notas prevê cerca de **2min57s** (177s), com pequena margem para transições.
+Duração-alvo: **até 3 minutos**. O roteiro nas notas prevê cerca de **2min56s** (176s), com pequena margem para transições.
 
 ## Deploy no Vercel
 
@@ -24,13 +24,14 @@ Duração-alvo: **até 3 minutos**. O roteiro nas notas prevê cerca de **2min57
 
 1. Apresentação do Plano de Negócio
 2. A ideia
-3. Canvas — Analisando Oportunidades
-4. Análise de Mercado (clientes, concorrentes e fornecedores)
-5. O Plano de Negócio (marca, missão, visão, valores e serviços)
-6. O Plano Operacional (estrutura, atividades e recursos humanos)
-7. Plano Financeiro
-8. Avaliação estratégica e geral
-9. Obrigado pela atenção
+3. Missão, Visão e Valores (introdução)
+4. Canvas — Analisando Oportunidades
+5. Análise de Mercado (clientes, concorrentes e fornecedores)
+6. O Plano de Negócio (marca, missão, visão, valores e serviços)
+7. O Plano Operacional (estrutura, atividades e recursos humanos)
+8. Plano Financeiro
+9. Avaliação estratégica e geral
+10. Obrigado pela atenção
 
 ## Dados e ressalvas
 
@@ -43,6 +44,12 @@ Conteúdo baseado nos documentos elaborados pelo grupo: **Lean Canvas ResiMatch*
 - Missão, visão, valores e trabalho remoto são **propostas do planejamento**, não operações já implementadas.
 - A solução de matching e o Circular Match Score são **funcionalidades propostas**; não há afirmação de que o produto já esteja em operação.
 - A identidade visual web utiliza a **imagem original enviada** (em WebP, sem redesenho), exibida com proporção preservada. A imagem contém marcas-d’água presentes no arquivo fornecido.
+
+## Divisão sugerida para apresentar
+
+- Andrey: slides 1–3 (introdução, ideia, missão/visão/valores)
+- João Pedro: slides 4–7 (Canvas, mercado, negócio e operação)
+- Lucas Gabriel: slides 8–10 (finanças, estratégia e encerramento)
 
 ## Equipe
 
